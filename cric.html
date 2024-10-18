@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Score Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff5722;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .match-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .match-info h2 {
+            color: #4CAF50;
+            margin-bottom: 5px;
+        }
+        .score-board {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .team {
+            width: 45%;
+            padding: 20px;
+            background-color: #e0f7fa;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .team h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .score {
+            font-size: 36px;
+            color: #00796b;
+        }
+        .overs {
+            font-size: 18px;
+            color: #333;
+        }
+        .player-stats {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .player-stats table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .player-stats table, th, td {
+            border: 1px solid #ddd;
+        }
+        .player-stats th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        .player-stats th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Cricket Score Dashboard</h1>
+    </div>
+
+    <div class="match-info">
+        <h2>India vs Australia</h2>
+        <p>Date: October 18, 2024 | Venue: Wankhede Stadium, Mumbai</p>
+    </div>
+
+    <div class="score-board">
+        <div class="team">
+            <h3>India</h3>
+            <div class="score">245/5</div>
+            <div class="overs">Overs: 45.3</div>
+        </div>
+
+        <div class="team">
+            <h3>Australia</h3>
+            <div class="score">220/7</div>
+            <div class="overs">Overs: 50</div>
+        </div>
+    </div>
+
+    <div class="player-stats">
+        <h3>Player Stats</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Runs</th>
+                    <th>Balls Faced</th>
+                    <th>Strike Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Virat Kohli</td>
+                    <td>75</td>
+                    <td>60</td>
+                    <td>125.00</td>
+                </tr>
+                <tr>
+                    <td>Rohit Sharma</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>122.22</td>
+                </tr>
+                <tr>
+                    <td>David Warner</td>
+                    <td>90</td>
+                    <td>85</td>
+                    <td>105.88</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Cricket Dashboard | All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>
